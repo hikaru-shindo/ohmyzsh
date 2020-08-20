@@ -161,7 +161,7 @@ plugins=(... git)
 | gsu                  | git submodule update                                                                                                             |
 | gsw                  | git switch                                                                                                                       |
 | gswc                 | git switch -c                                                                                                                    |
-| gswm                 | git switch master                                                                                                                |
+| gswm                 | git switch $(git_main_branch)                                                                                                                |
 | gswd                 | git switch develop                                                                                                               |
 | gts                  | git tag -s                                                                                                                       |
 | gtv                  | git tag \| sort -V                                                                                                               |
